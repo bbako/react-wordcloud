@@ -3,7 +3,7 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 
-const databaseURL = "https://basic-hy.firebaseio.com/";
+const databaseURL = "https://base-hy-01.firebaseio.com/"
 
 class Words extends React.Component {
     constructor() {
