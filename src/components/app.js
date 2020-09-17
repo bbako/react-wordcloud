@@ -5,6 +5,7 @@ import Home from './Home';
 import Texts from './Texts';
 import Words from './Words';
 import Detail from './Detail';
+import Login from './Login';
 import '../index.css';
 
 class App extends React.Component {
@@ -17,6 +18,7 @@ class App extends React.Component {
                         <Route exact path="/texts" component={Texts}/>
                         <Route exact path="/words" component={Words}/>
                         <Route exact path="/detail/:textID" component={Detail}/>
+                        <Route exact path="/login" component={Login}/>
                     </div>
                 </AppShell>
             </Router>

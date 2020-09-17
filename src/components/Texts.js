@@ -1,4 +1,4 @@
-import TextTruncate from 'react-text-truncate';
+
 import React from 'react';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
@@ -176,11 +176,7 @@ class Texts extends React.Component {
                             {this.state.fileName === ''? ".txt 파일 선택" : this.state.fileName}
                         </Button>
                     </label>
-                    <TextTruncate
-                        line={1}
-                        truncateText="..."
-                        text={this.state.fileContent}
-                    />
+                   
                     </DialogContent>
                     <DialogActions>
                         <Button variant="contained" color="primary" onClick={this.handleSubmit}>추가</Button>

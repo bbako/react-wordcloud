@@ -6,13 +6,15 @@
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
-    "css-loader": "^4.3.0",
+    "bootstrap": "^4.5.2",
     "firebase-admin": "^9.1.1",
+    "jquery": "^1.9.1",
+    "popper.js": "^1.16.1",
     "react": "^16.13.1",
+    "react-bootstrap": "^0.32.4",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
-    "react-text-truncate": "^0.16.0",
-    "style-loader": "^1.2.1"
+    "react-text-truncate": "^0.16.0"
   },
   "scripts": {
     "start": "set NODE_ENV=development&&webpack-dev-server",
@@ -23,6 +25,8 @@
     "babel-loader": "^8.1.0",
     "babel-preset-react-app": "^9.1.2",
     "copy-webpack-plugin": "^6.1.0",
+    "css-loader": "^4.3.0",
+    "style-loader": "^1.2.1",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"

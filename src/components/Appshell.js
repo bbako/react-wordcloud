@@ -52,6 +52,11 @@ class AppShell extends React.Component {
                                 단어 관리
                             </Link>
                         </MenuItem>
+                        <MenuItem onClick={this.handleDrawerToggle}>
+                            <Link component={RouterLink} to="/login">
+                                로그인
+                            </Link>
+                        </MenuItem>
                     </Drawer>
                 </div>
                 <div id="content" style={{margin: 'auto', marginTop: '20px'}}>
